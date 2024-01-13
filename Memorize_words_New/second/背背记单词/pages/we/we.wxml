@@ -1,0 +1,32 @@
+<!-- pages/manual/manual.wxml -->
+<view class="manual-container">
+  <view class="section">
+   
+    <text class="section-content"> 底部导航栏按钮用于快速导航到背单词、查单词、文心一言和我的四个界面。\n\n</text>
+    <text class="section-title">1. 单词学习页面:</text>
+    <text class="section-content">
+      进入程序即可看到： 客户进入程序直接进入单词学习页面。在首页的搜索框中输入您想要查询的单词，支持英文单词查询。点击搜索按钮或键盘上的“完成”按钮进行查询。
+1.学习记忆： 在该页面进行单词的学习记忆。
+2.听单词音频： 可以点击单词，听到该单词的音频。
+3.认识和模糊按钮：点击"认识"按钮或"模糊"按钮可跳转到下一个单词的学习。
+4.释义按钮：点击释义按钮查看当前单词的含义。
+5.音频符号：点击音频符号可以听到当前单词的音频。\n
+    </text>
+    <text class="section-title">2. 单词查询页面:</text>
+    <text class="section-content">
+      查询结果将显示该单词的音标和释义。
+搜索按钮/回车键： 点击右侧的搜索按钮或按键盘的回车键，显示该单词的相关信息。\n
+    </text>
+    <text class="section-title">3. 智能对话</text>
+    <text class="section-content">  
+    对话方式获取信息： 通过输入框对话的方式获取信息。多功能对话： 包括聊天、查天气、查单词等。\n
+    </text>
+
+    <text class="section-title">4. 我的页面</text>
+    <text class="section-content">
+选择词库按钮： 点击选择词库按钮，弹出CET3词汇、CET4词汇、CET6词汇、专升本词汇、高职词汇五个选项。
+选择词汇库后，背单词页面的单词更新为所选词汇库中的单词。可以按取消按钮退出词汇选择。\n
+    </text>
+ 
+  </view>
+</view>

@@ -1,0 +1,62 @@
+{
+    "pages": [
+        "pages/reciteWords/reciteWords",
+        "pages/my/my",
+        "pages/logs/logs",
+        "pages/we/we",
+        "pages/search/search",
+        "pages/bigModel/bigModel"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#f8f9eb",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#73bcff"
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+  },
+  "permission": {
+      "scope.userLocation": {
+          "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+  },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/reciteWords/reciteWords",
+                "text": "背单词",
+                "iconPath": "icon/book.png",
+                "selectedIconPath": "icon/book1.png"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "查单词",
+                "iconPath": "icon/search.png",
+                "selectedIconPath": "icon/search1.png"
+            },
+            {
+              "pagePath": "pages/bigModel/bigModel",
+              "text": "智能对话",
+              "iconPath": "icon/model.png",
+              "selectedIconPath": "icon/model1.png"
+          },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "icon/my.png",
+                "selectedIconPath": "icon/my2.png"
+            }
+        ],
+        "selectedColor": "#8c3140",
+        "backgroundColor": "#f8f9eb",
+        "color": "#8c3140"
+    }
+}

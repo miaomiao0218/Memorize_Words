@@ -1,0 +1,33 @@
+<!--pages/about/about.wxml-->
+<view>
+  <view id="look">
+    <text style="font-size:22px; height: 61rpx; display: block; box-sizing: border-box; left: 10rpx; top: 10rpx;color: #f33653; ">请输入你要查询的单词</text>
+  </view>
+  <form bindsubmit="submit">
+    <view class="select">
+      <input id="input" name="content" type="text"  value="able"/>
+      <button form-type="submit" id="btn">搜索</button>
+    </view>
+  </form>
+
+<view id="result">
+  <text>查询的单词音标为：{{text[0].pron}}</text>
+</view> 
+  <view id="result">
+    <text>释义为：{{text[0].definition}}</text>
+
+  </view>
+
+ 
+  
+  <!--<form bindsubmit="submit">
+    <view class="select">
+      <input id="input" name="content" type="text"  value="apple"/>
+      <button form-type="submit" id="btn">增加</button>
+    </view>
+  </form>-->
+ 
+  
+ <!--<button id="bottom" bindtap="back">返回</button>--> 
+</view>
+

@@ -1,0 +1,84 @@
+/* pages/about/about.wxss */
+/* 定义背景样式 */
+page {
+  background-color: #f8f9eb;
+}
+.container {
+  padding: 40rpx; background-color: #f8f9eb;
+}
+
+#look {
+  margin-bottom: 60rpx;
+  background-color: #f8f9eb;
+ 
+  margin-right: 180rpx;
+  margin-left: 130rpx;
+  
+}
+
+.search-form {
+  background-color: #f8f9eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select {
+  background-color: #f8f9eb;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#input {
+  background-color: #f8f9eb;
+  flex: 1;
+  padding: 18rpx;
+  border: 1rpx solid rgb(223, 156, 156);
+  border-radius: 10rpx;
+  margin-right: 8rpx;
+  margin-left: 8rpx;
+  font-size: 40rpx;
+}
+
+#btn {
+  background-color: #f1b8c1;
+  color: rgb(22, 21, 21);
+  border: none;
+  padding: 10rpx 20rpx;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45rpx;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5rpx;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20rpx;
+  color: rgb(22, 21, 21);
+ 
+  padding: 10rpx 20rpx;
+  font-size: 45rpx;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5rpx;
+  cursor: pointer;
+}
+
+.result-text {
+  margin-bottom: 100rpx; /* 增加结果文本之间的间距 */
+}
+
+#empty-result {
+  color: #888;
+  margin-top: 20rpx;
+}
+
+.empty-text {
+  font-style: italic; /* 未找到结果文本斜体显示 */
+}
+
+.element {
+  margin: 10px 20px;
+}
